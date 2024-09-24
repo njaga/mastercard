@@ -1,6 +1,6 @@
 # Licence MIT
 
-Droit d'auteur (c) 2023 Ndiaga Ndiaye
+Droit d'auteur (c) 2024 Ndiaga Ndiaye
 
 La présente autorise, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le "Logiciel"), de traiter le Logiciel sans restriction, y compris, sans limitation, les droits d'utiliser, de copier, de modifier, de fusionner, de publier, de distribuer, de sous-licencier et/ou de vendre des copies du Logiciel, et de permettre aux personnes à qui le Logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
