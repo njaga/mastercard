@@ -69,4 +69,4 @@ Les contributions sont les bienvenues ! N'hésitez pas à soumettre une Pull Req
 
 ## 📄 Licence
 
-Ce projet est open source et disponible sous la [Licence MIT](LICENSE).
+Ce projet est open source et disponible sous la [Licence MIT](LICENSE.md).
