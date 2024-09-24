@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# 💳 Composant Carte de Crédit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet contient un composant React qui affiche une carte de crédit interactive. La carte de crédit peut être retournée pour montrer à la fois le recto et le verso.
 
-## Available Scripts
+## 🎬 Démonstration
 
-In the project directory, you can run:
+![Démonstration de la Carte de Crédit](public/mastercard.gif)
 
-### `npm start`
+## ✨ Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎨 Design réaliste de carte de crédit
+- 🔄 Animation de retournement 3D interactive
+- 📱 Mise en page responsive
+- 🔧 Informations de carte personnalisables
+- 🖼️ Le recto affiche :
+  - 💽 Puce
+  - 📡 Icône de paiement sans contact
+  - 🔢 Numéro de carte
+  - 👤 Nom du titulaire
+  - 📅 Date d'expiration
+  - 🏦 Logo de l'émetteur de la carte (Mastercard)
+- 🔙 Le verso affiche :
+  - 🔒 Bande magnétique
+  - ✍️ Panneau de signature
+  - 🔑 Numéro CVV
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Installation
 
-### `npm test`
+1. 📥 Clonez ce dépôt sur votre machine locale.
+2. 📂 Naviguez vers le répertoire du projet.
+3. ⚙️ Exécutez `npm install` pour installer les dépendances nécessaires.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Utilisation
 
-### `npm run build`
+Pour utiliser le composant CreditCard dans votre application React :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. 📦 Importez le composant :
+   ```javascript
+   import CreditCard from './components/CreditCard';
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. 💻 Utilisez le composant dans votre JSX :
+   ```jsx
+   <CreditCard />
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 Personnalisation
 
-### `npm run eject`
+Pour personnaliser les informations de la carte, modifiez les valeurs dans le fichier `CreditCard.js` :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 🔢 Numéro de carte : Mettez à jour le contenu de `<div className="card-number">`
+- 👤 Nom du titulaire : Modifiez le contenu de `<div className="name">`
+- 📅 Date d'expiration : Changez le contenu de `<div className="date">`
+- 🔑 CVV : Ajustez le contenu de `<div className="cvv-number">`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🖌️ Style
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Le composant utilise un fichier CSS séparé (`CreditCard.css`) pour le style. Vous pouvez modifier ce fichier pour changer l'apparence de la carte de crédit.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🔗 Dépendances
 
-## Learn More
+Ce composant dépend de :
+- ⚛️ React
+- 🎨 CSS pour le style
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contribution
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Les contributions sont les bienvenues ! N'hésitez pas à soumettre une Pull Request.
 
-### Code Splitting
+## 📄 Licence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce projet est open source et disponible sous la [Licence MIT](LICENSE).
